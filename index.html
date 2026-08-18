@@ -1,0 +1,1057 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="خدمات عزل أسطح وعزل خزانات وكشف تسربات المياه بالرياض للمنازل والفلل والمنشآت." />
+    <meta name="theme-color" content="#0b3154" />
+    <title>عزل أسطح وخزانات وكشف تسربات المياه بالرياض</title>
+    <style>
+      :root {
+        --navy: #082b49;
+        --navy-deep: #051d33;
+        --blue: #1677c8;
+        --blue-bright: #2499eb;
+        --sky: #dff3ff;
+        --foam: #f5fbfe;
+        --ink: #102b43;
+        --muted: #6b8193;
+        --line: rgba(8, 43, 73, 0.1);
+        --green: #1fba68;
+        --white: #ffffff;
+        --shadow: 0 24px 60px rgba(6, 42, 69, 0.14);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        margin: 0;
+        min-width: 320px;
+        background:
+          radial-gradient(circle at 12% 8%, rgba(36, 153, 235, 0.14), transparent 26rem),
+          radial-gradient(circle at 95% 28%, rgba(31, 186, 104, 0.09), transparent 22rem),
+          #edf7fb;
+        color: var(--ink);
+        font-family: Tahoma, "Arial", sans-serif;
+        line-height: 1.7;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .page-shell {
+        width: min(100% - 28px, 1120px);
+        margin: 0 auto;
+        padding: 22px 0 30px;
+      }
+
+      .flyer {
+        position: relative;
+        overflow: hidden;
+        border: 1px solid rgba(255, 255, 255, 0.8);
+        border-radius: 30px;
+        background: var(--white);
+        box-shadow: var(--shadow);
+      }
+
+      .flyer::before,
+      .flyer::after {
+        position: absolute;
+        z-index: 0;
+        width: 230px;
+        height: 230px;
+        border-radius: 50%;
+        content: "";
+        pointer-events: none;
+      }
+
+      .flyer::before {
+        top: -122px;
+        left: -94px;
+        background: rgba(36, 153, 235, 0.14);
+      }
+
+      .flyer::after {
+        right: -110px;
+        bottom: 32%;
+        background: rgba(31, 186, 104, 0.08);
+      }
+
+      .topbar,
+      .hero,
+      .content,
+      .footer {
+        position: relative;
+        z-index: 1;
+      }
+
+      .topbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 18px;
+        padding: 22px 38px;
+        background: var(--navy-deep);
+        color: var(--white);
+      }
+
+      .brand {
+        display: inline-flex;
+        align-items: center;
+        gap: 11px;
+        font-size: 0.98rem;
+        font-weight: 700;
+        letter-spacing: 0.02em;
+      }
+
+      .brand-mark {
+        display: grid;
+        width: 40px;
+        height: 40px;
+        place-items: center;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 13px;
+        background: linear-gradient(145deg, #1f9be8, #0d4e82);
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.35);
+        font-size: 1.25rem;
+      }
+
+      .topbar-note {
+        color: rgba(255, 255, 255, 0.74);
+        font-size: 0.86rem;
+      }
+
+      .hero {
+        display: grid;
+        grid-template-columns: 1.08fr 0.92fr;
+        align-items: center;
+        gap: 38px;
+        min-height: 450px;
+        padding: 56px 8%;
+        background:
+          linear-gradient(115deg, rgba(8, 43, 73, 0.97), rgba(15, 86, 136, 0.94)),
+          var(--navy);
+        color: var(--white);
+        isolation: isolate;
+      }
+
+      .hero::before {
+        position: absolute;
+        inset: 0;
+        z-index: -1;
+        opacity: 0.36;
+        background-image:
+          radial-gradient(circle at 20% 30%, rgba(255, 255, 255, 0.85) 0 2px, transparent 2.5px),
+          radial-gradient(circle at 70% 20%, rgba(255, 255, 255, 0.58) 0 1.5px, transparent 2px),
+          radial-gradient(circle at 60% 75%, rgba(255, 255, 255, 0.5) 0 2px, transparent 2.5px);
+        background-size: 92px 92px, 118px 118px, 160px 160px;
+        content: "";
+      }
+
+      .eyebrow {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        margin: 0 0 14px;
+        color: #96dcff;
+        font-size: 0.86rem;
+        font-weight: 700;
+      }
+
+      .eyebrow::before {
+        width: 28px;
+        height: 2px;
+        border-radius: 5px;
+        background: #57c7ff;
+        content: "";
+      }
+
+      h1,
+      h2,
+      h3,
+      p {
+        margin-top: 0;
+      }
+
+      h1 {
+        max-width: 620px;
+        margin-bottom: 16px;
+        font-size: clamp(2.2rem, 5vw, 4.2rem);
+        line-height: 1.13;
+        letter-spacing: -0.04em;
+      }
+
+      .hero-copy {
+        max-width: 570px;
+        margin-bottom: 26px;
+        color: rgba(255, 255, 255, 0.82);
+        font-size: clamp(1rem, 1.9vw, 1.17rem);
+      }
+
+      .hero-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+      }
+
+      .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 9px;
+        min-height: 51px;
+        padding: 10px 20px;
+        border: 1px solid transparent;
+        border-radius: 15px;
+        font-size: 0.97rem;
+        font-weight: 700;
+        transition: transform 180ms ease, box-shadow 180ms ease, background 180ms ease;
+      }
+
+      .button:hover,
+      .button:focus-visible {
+        transform: translateY(-3px);
+        outline: none;
+      }
+
+      .button-primary {
+        background: var(--blue-bright);
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+        color: var(--white);
+      }
+
+      .button-primary:hover,
+      .button-primary:focus-visible {
+        background: #43adf1;
+        box-shadow: 0 16px 28px rgba(0, 0, 0, 0.26);
+      }
+
+      .button-outline {
+        border-color: rgba(255, 255, 255, 0.38);
+        background: rgba(255, 255, 255, 0.06);
+        color: var(--white);
+      }
+
+      .button-outline:hover,
+      .button-outline:focus-visible {
+        border-color: rgba(255, 255, 255, 0.72);
+        background: rgba(255, 255, 255, 0.14);
+      }
+
+      .hero-visual {
+        position: relative;
+        display: grid;
+        min-height: 285px;
+        place-items: center;
+      }
+
+      .visual-orbit {
+        position: absolute;
+        width: min(300px, 80vw);
+        aspect-ratio: 1;
+        border: 1px solid rgba(147, 218, 255, 0.25);
+        border-radius: 50%;
+        transform: rotate(-18deg);
+      }
+
+      .visual-orbit::before,
+      .visual-orbit::after {
+        position: absolute;
+        width: 13px;
+        height: 13px;
+        border-radius: 50%;
+        background: #73d1ff;
+        box-shadow: 0 0 0 7px rgba(115, 209, 255, 0.12);
+        content: "";
+      }
+
+      .visual-orbit::before {
+        top: 15%;
+        right: 3%;
+      }
+
+      .visual-orbit::after {
+        bottom: 8%;
+        left: 13%;
+        background: #5ce09a;
+        box-shadow: 0 0 0 7px rgba(92, 224, 154, 0.12);
+      }
+
+      .foam-badge {
+        position: relative;
+        display: grid;
+        width: 205px;
+        height: 205px;
+        place-items: center;
+        border: 12px solid rgba(255, 255, 255, 0.14);
+        border-radius: 50%;
+        background:
+          radial-gradient(circle at 33% 29%, #ffffff 0 7px, transparent 8px),
+          radial-gradient(circle at 68% 66%, #ffffff 0 5px, transparent 6px),
+          linear-gradient(145deg, #5fc8f6, #1270af 74%);
+        box-shadow:
+          0 28px 40px rgba(0, 0, 0, 0.24),
+          inset 12px 12px 18px rgba(255, 255, 255, 0.28),
+          inset -12px -13px 20px rgba(0, 31, 57, 0.25);
+        text-align: center;
+      }
+
+      .foam-badge::before,
+      .foam-badge::after {
+        position: absolute;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.48);
+        content: "";
+      }
+
+      .foam-badge::before {
+        top: 27px;
+        left: 43px;
+        width: 17px;
+        height: 17px;
+      }
+
+      .foam-badge::after {
+        right: 34px;
+        bottom: 45px;
+        width: 10px;
+        height: 10px;
+      }
+
+      .badge-text {
+        position: relative;
+        z-index: 1;
+        font-size: 1.65rem;
+        font-weight: 900;
+        line-height: 1.25;
+        text-shadow: 0 2px 6px rgba(0, 40, 72, 0.28);
+      }
+
+      .badge-text small {
+        display: block;
+        margin-top: 7px;
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 0.82rem;
+        font-weight: 700;
+      }
+
+      .content {
+        padding: 54px 8% 58px;
+      }
+
+      .section-heading {
+        max-width: 670px;
+        margin-bottom: 28px;
+      }
+
+      .section-heading h2 {
+        margin-bottom: 8px;
+        color: var(--navy);
+        font-size: clamp(1.65rem, 3vw, 2.35rem);
+        line-height: 1.25;
+      }
+
+      .section-heading p {
+        margin-bottom: 0;
+        color: var(--muted);
+      }
+
+      .service-grid,
+      .benefit-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+      }
+
+      .service-card,
+      .benefit-card {
+        border: 1px solid var(--line);
+        border-radius: 18px;
+        background: linear-gradient(150deg, #ffffff, #f2faff);
+        transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+      }
+
+      .service-card:hover,
+      .benefit-card:hover {
+        border-color: rgba(36, 153, 235, 0.32);
+        box-shadow: 0 15px 26px rgba(8, 60, 90, 0.09);
+        transform: translateY(-4px);
+      }
+
+      .service-card {
+        min-height: 146px;
+        padding: 22px 20px;
+      }
+
+      .card-icon {
+        display: grid;
+        width: 42px;
+        height: 42px;
+        margin-bottom: 13px;
+        place-items: center;
+        border-radius: 13px;
+        background: var(--sky);
+        color: var(--blue);
+        font-size: 1.35rem;
+      }
+
+      .service-card h3,
+      .benefit-card h3 {
+        margin-bottom: 5px;
+        color: var(--navy);
+        font-size: 1.02rem;
+      }
+
+      .service-card p,
+      .benefit-card p {
+        margin-bottom: 0;
+        color: var(--muted);
+        font-size: 0.89rem;
+      }
+
+      .benefits {
+        margin-top: 54px;
+      }
+
+      .benefit-grid {
+        grid-template-columns: repeat(4, 1fr);
+      }
+
+      .benefit-card {
+        min-height: 138px;
+        padding: 20px;
+      }
+
+      .benefit-card .card-icon {
+        width: 38px;
+        height: 38px;
+        margin-bottom: 11px;
+        background: #e6f8ed;
+        color: #119554;
+        font-size: 1.12rem;
+      }
+
+      .contact-strip {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 22px;
+        margin-top: 52px;
+        padding: 27px 30px;
+        border-radius: 22px;
+        background: linear-gradient(112deg, var(--navy), #0e5d90);
+        color: var(--white);
+        box-shadow: 0 14px 25px rgba(8, 43, 73, 0.16);
+      }
+
+      .contact-strip h2 {
+        margin-bottom: 4px;
+        font-size: clamp(1.35rem, 2.5vw, 1.9rem);
+      }
+
+      .contact-strip p {
+        margin-bottom: 0;
+        color: rgba(255, 255, 255, 0.76);
+        font-size: 0.93rem;
+      }
+
+      .contact-number {
+        display: inline-block;
+        margin-top: 7px;
+        direction: ltr;
+        font-size: 1.33rem;
+        font-weight: 800;
+        letter-spacing: 0.03em;
+      }
+
+      .contact-actions {
+        display: flex;
+        flex-shrink: 0;
+        gap: 10px;
+      }
+
+      .button-whatsapp {
+        background: var(--green);
+        color: var(--white);
+      }
+
+      .button-whatsapp:hover,
+      .button-whatsapp:focus-visible {
+        background: #27c875;
+      }
+
+      .button-call-light {
+        background: var(--white);
+        color: var(--navy);
+      }
+
+      .button-call-light:hover,
+      .button-call-light:focus-visible {
+        background: #e9f7ff;
+      }
+
+      .footer {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        padding: 21px 8%;
+        border-top: 1px solid var(--line);
+        background: #fbfdfe;
+        color: var(--muted);
+        font-size: 0.82rem;
+      }
+
+      .designer-link {
+        color: var(--blue);
+        font-weight: 800;
+        transition: color 180ms ease;
+      }
+
+      .designer-link:hover,
+      .designer-link:focus-visible {
+        color: var(--green);
+        outline: none;
+      }
+
+      .floating-actions {
+        position: fixed;
+        z-index: 20;
+        bottom: 22px;
+        left: 18px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .floating-action {
+        display: grid;
+        width: 54px;
+        height: 54px;
+        place-items: center;
+        border: 3px solid rgba(255, 255, 255, 0.9);
+        border-radius: 50%;
+        box-shadow: 0 8px 22px rgba(5, 40, 66, 0.2);
+        color: var(--white);
+        font-size: 1.34rem;
+        transition: transform 180ms ease, filter 180ms ease;
+      }
+
+      .floating-action:hover,
+      .floating-action:focus-visible {
+        filter: brightness(1.09);
+        outline: none;
+        transform: scale(1.08);
+      }
+
+      .floating-whatsapp {
+        background: var(--green);
+      }
+
+      .floating-call {
+        background: var(--blue);
+      }
+
+      .sr-only {
+        position: absolute;
+        overflow: hidden;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        border: 0;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+      }
+
+      @media (max-width: 800px) {
+        .hero {
+          grid-template-columns: 1fr;
+          gap: 20px;
+          padding-top: 43px;
+          padding-bottom: 35px;
+        }
+
+        .hero-visual {
+          min-height: 218px;
+        }
+
+        .foam-badge {
+          width: 165px;
+          height: 165px;
+          border-width: 9px;
+        }
+
+        .badge-text {
+          font-size: 1.3rem;
+        }
+
+        .service-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+
+        .benefit-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+
+      @media (max-width: 560px) {
+        .page-shell {
+          width: 100%;
+          padding: 0;
+        }
+
+        .flyer {
+          border: 0;
+          border-radius: 0;
+        }
+
+        .topbar {
+          align-items: flex-start;
+          padding: 17px 20px;
+        }
+
+        .topbar-note {
+          max-width: 112px;
+          text-align: left;
+          font-size: 0.73rem;
+          line-height: 1.5;
+        }
+
+        .hero {
+          padding: 39px 22px 30px;
+        }
+
+        h1 {
+          font-size: 2.35rem;
+        }
+
+        .hero-copy {
+          font-size: 0.98rem;
+        }
+
+        .hero-actions {
+          flex-direction: column;
+          align-items: stretch;
+        }
+
+        .hero-actions .button {
+          width: 100%;
+        }
+
+        .content {
+          padding: 39px 20px 44px;
+        }
+
+        .service-grid,
+        .benefit-grid {
+          gap: 10px;
+        }
+
+        .service-card,
+        .benefit-card {
+          min-height: 0;
+          padding: 16px 14px;
+        }
+
+        .service-card h3,
+        .benefit-card h3 {
+          font-size: 0.91rem;
+        }
+
+        .service-card p,
+        .benefit-card p {
+          font-size: 0.79rem;
+          line-height: 1.55;
+        }
+
+        .contact-strip {
+          align-items: stretch;
+          flex-direction: column;
+          gap: 19px;
+          margin-top: 38px;
+          padding: 23px 18px;
+        }
+
+        .contact-actions {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+        }
+
+        .contact-actions .button {
+          min-height: 47px;
+          padding: 8px 10px;
+          font-size: 0.86rem;
+        }
+
+        .footer {
+          align-items: flex-start;
+          flex-direction: column;
+          padding: 19px 20px 24px;
+        }
+
+        .floating-actions {
+          right: 15px;
+          bottom: 15px;
+          left: auto;
+        }
+
+        .floating-action {
+          width: 49px;
+          height: 49px;
+          font-size: 1.18rem;
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        html {
+          scroll-behavior: auto;
+        }
+
+        *,
+        *::before,
+        *::after {
+          transition-duration: 0.01ms !important;
+        }
+      }
+
+      /* Centered layout + larger contact buttons */
+      .hero > div:first-child,
+      .content,
+      .section-heading,
+      .service-card,
+      .benefit-card,
+      .contact-strip,
+      .footer {
+        text-align: center;
+      }
+
+      .hero > div:first-child {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      h1,
+      .hero-copy,
+      .section-heading {
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .hero-actions,
+      .contact-actions {
+        justify-content: center;
+      }
+
+      .eyebrow {
+        justify-content: center;
+      }
+
+      .card-icon {
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .contact-strip {
+        justify-content: center;
+      }
+
+      .contact-strip > div:first-child {
+        flex: 1 1 420px;
+      }
+
+      .button-whatsapp,
+      .button-call-light,
+      .hero-actions .button {
+        min-height: 60px;
+        padding: 13px 26px;
+        border-radius: 17px;
+        font-size: 1.08rem;
+      }
+
+      .floating-action {
+        width: 72px;
+        height: 72px;
+        font-size: 1.75rem;
+        border-width: 4px;
+        box-shadow: 0 10px 28px rgba(5, 40, 66, 0.28);
+      }
+
+      @media (max-width: 560px) {
+        .topbar {
+          justify-content: center;
+          text-align: center;
+        }
+
+        .topbar-note {
+          text-align: center;
+        }
+
+        .contact-actions {
+          grid-template-columns: 1fr 1fr;
+          width: 100%;
+        }
+
+        .contact-actions .button {
+          min-height: 58px;
+          padding: 11px 12px;
+          font-size: 1rem;
+        }
+
+        .floating-action {
+          width: 66px;
+          height: 66px;
+          font-size: 1.55rem;
+        }
+      }
+
+
+      /* Final text alignment requested */
+      .topbar {
+        justify-content: center !important;
+        flex-direction: column !important;
+        text-align: center !important;
+      }
+      .brand,
+      .topbar-note,
+      .hero > div:first-child,
+      .hero-copy,
+      .section-heading,
+      .service-card,
+      .benefit-card,
+      .contact-strip,
+      .contact-strip > div:first-child,
+      .footer {
+        text-align: center !important;
+      }
+      .brand,
+      .eyebrow,
+      .hero-actions,
+      .contact-actions {
+        justify-content: center !important;
+      }
+      .footer {
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        gap: 5px !important;
+      }
+    </style>
+  
+    <!-- TikTok Pixel Code Start -->
+    <script>
+    !function (w, d, t) {
+      w.TiktokAnalyticsObject=t;
+      var ttq=w[t]=w[t]||[];
+      ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"];
+      ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};
+      for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);
+      ttq.instance=function(t){
+        for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);
+        return e
+      };
+      ttq.load=function(e,n){
+        var r="https://analytics.tiktok.com/i18n/pixel/events.js",o=n&&n.partner;
+        ttq._i=ttq._i||{};
+        ttq._i[e]=[];
+        ttq._i[e]._u=r;
+        ttq._t=ttq._t||{};
+        ttq._t[e]=+new Date;
+        ttq._o=ttq._o||{};
+        ttq._o[e]=n||{};
+        n=document.createElement("script");
+        n.type="text/javascript";
+        n.async=!0;
+        n.src=r+"?sdkid="+e+"&lib="+t;
+        e=document.getElementsByTagName("script")[0];
+        e.parentNode.insertBefore(n,e)
+      };
+      ttq.load('D8KUNJRC77UA4F3IP3JG');
+      ttq.page();
+    }(window, document, 'ttq');
+    </script>
+    <!-- TikTok Pixel Code End -->
+  </head>
+  <body>
+    <main class="page-shell">
+      <article class="flyer">
+        <header class="topbar">
+          <a class="brand" href="#home" aria-label="عزل أسطح وخزانات وكشف تسربات المياه بالرياض - الصفحة الرئيسية">
+            <span class="brand-mark" aria-hidden="true">✦</span>
+            <span>عزل أسطح وخزانات بالرياض</span>
+          </a>
+          <span class="topbar-note">عزل أسطح وخزانات وكشف تسربات المياه بالرياض</span>
+        </header>
+
+        <section class="hero" id="home">
+          <div>
+            <p class="eyebrow">عزل أسطح وخزانات وكشف تسربات المياه بالرياض</p>
+            <h1>عزل أسطح وخزانات<br />وكشف تسربات المياه بالرياض</h1>
+            <p class="hero-copy">
+              نقدم خدمات عزل الأسطح، عزل الخزانات، وكشف تسربات المياه بالرياض للمنازل والفلل والمنشآت، مع تنفيذ دقيق وخدمة سريعة.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="tel:+966533621939">
+                <span aria-hidden="true">☎</span>
+                اتصل الآن
+              </a>
+              <a
+                class="button button-outline"
+                href="https://wa.me/966533621939"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span aria-hidden="true">◉</span>
+                تواصل عبر واتساب
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-visual" aria-label="شعار العزل والحماية">
+            <div class="visual-orbit" aria-hidden="true"></div>
+            <div class="foam-badge">
+              <div class="badge-text">
+                عزل
+                <br />
+                أسطح
+                <small>حماية • جودة • أمان</small>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="content">
+          <section aria-labelledby="services-title">
+            <div class="section-heading">
+              <p class="eyebrow">خدماتنا</p>
+              <h2 id="services-title">عزل أسطح وخزانات وكشف تسربات المياه بالرياض</h2>
+              <p>خدمات متخصصة لحماية الأسطح والخزانات وتحديد مصادر تسربات المياه ومعالجتها بدقة.</p>
+            </div>
+
+            <div class="service-grid">
+              <article class="service-card">
+                <div class="card-icon" aria-hidden="true">⌂</div>
+                <h3>عزل أسطح</h3>
+                <p>عزل أسطح بالرياض لحماية المباني من الحرارة والرطوبة وتسربات المياه.</p>
+              </article>
+              <article class="service-card">
+                <div class="card-icon" aria-hidden="true">▥</div>
+                <h3>عزل خزانات</h3>
+                <p>عزل خزانات بالرياض للمساعدة في منع التسرب وحماية الخزان والمحافظة على المياه.</p>
+              </article>
+              <article class="service-card">
+                <div class="card-icon" aria-hidden="true">⌁</div>
+                <h3>كشف تسربات المياه</h3>
+                <p>كشف تسربات المياه بالرياض لتحديد مصدر التسرب بدقة قبل تنفيذ المعالجة المناسبة.</p>
+              </article>
+            </div>
+          </section>
+
+          <section class="benefits" aria-labelledby="benefits-title">
+            <div class="section-heading">
+              <p class="eyebrow">لماذا نحن؟</p>
+              <h2 id="benefits-title">خدمة دقيقة وموثوقة بالرياض</h2>
+            </div>
+
+            <div class="benefit-grid">
+              <article class="benefit-card">
+                <div class="card-icon" aria-hidden="true">♢</div>
+                <h3>دقة في التنفيذ</h3>
+                <p>اهتمام بالتفاصيل من البداية حتى اكتمال العمل.</p>
+              </article>
+              <article class="benefit-card">
+                <div class="card-icon" aria-hidden="true">◌</div>
+                <h3>مواد مناسبة</h3>
+                <p>اختيار حلول عزل ملائمة لطبيعة السطح والمكان.</p>
+              </article>
+              <article class="benefit-card">
+                <div class="card-icon" aria-hidden="true">↗</div>
+                <h3>استجابة سريعة</h3>
+                <p>تواصل مباشر وسريع لخدمات عزل الأسطح والخزانات وكشف التسربات بالرياض.</p>
+              </article>
+              <article class="benefit-card">
+                <div class="card-icon" aria-hidden="true">★</div>
+                <h3>جودة تهمنا</h3>
+                <p>نحرص على تقديم تجربة واضحة ونتيجة مرضية.</p>
+              </article>
+            </div>
+          </section>
+
+          <section class="contact-strip" aria-labelledby="contact-title">
+            <div>
+              <h2 id="contact-title">تحتاج عزل أو كشف تسربات؟</h2>
+              <p>تواصل معنا لخدمات عزل الأسطح، عزل الخزانات، وكشف تسربات المياه بالرياض.</p>
+              <a class="contact-number" href="tel:+966533621939">0533621939</a>
+            </div>
+            <div class="contact-actions">
+              <a class="button button-whatsapp" href="https://wa.me/966533621939" target="_blank" rel="noopener noreferrer">
+                واتساب
+              </a>
+              <a class="button button-call-light" href="tel:+966533621939">
+                اتصال مباشر
+              </a>
+            </div>
+          </section>
+        </div>
+
+        <footer class="footer">
+          <span>© 2026 عزل أسطح وخزانات وكشف تسربات المياه بالرياض — جميع الحقوق محفوظة</span>
+          <span>
+            تم التصميم بواسطة
+            <a
+              class="designer-link"
+              href="https://wa.me/201029095046"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="التواصل مع م نجوى ابراهيم عبر واتساب"
+            >
+              م نجوى ابراهيم
+            </a>
+          </span>
+        </footer>
+      </article>
+    </main>
+
+    <nav class="floating-actions" aria-label="خيارات التواصل السريع">
+      <a
+        class="floating-action floating-whatsapp"
+        href="https://wa.me/966533621939"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="التواصل عبر واتساب"
+        title="واتساب"
+      >
+        <span aria-hidden="true">◉</span>
+      </a>
+      <a
+        class="floating-action floating-call"
+        href="tel:+966533621939"
+        aria-label="الاتصال الآن"
+        title="اتصال"
+      >
+        <span aria-hidden="true">☎</span>
+      </a>
+    </nav>
+
+    <script>
+      document.querySelectorAll('a[href^="#"]').forEach(function (link) {
+        link.addEventListener("click", function (event) {
+          var target = document.querySelector(link.getAttribute("href"));
+          if (target) {
+            event.preventDefault();
+            target.scrollIntoView({ behavior: "smooth", block: "start" });
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
